@@ -1,0 +1,13 @@
+[25-03-2025 19:15:38] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.idBarco' in 'field list'
+ [25-03-2025 19:24:58] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.idBarco' in 'field list'
+ [25-03-2025 19:25:01] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.idBarco' in 'field list'
+ [25-03-2025 19:25:34] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.idBarco' in 'field list'
+ [25-03-2025 19:33:26] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.idBarco' in 'where clause'
+ [25-03-2025 19:38:01] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 109 - Message: Undefined property: stdClass::$imagen
+ [25-03-2025 19:44:02] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 139 - Message: Undefined property: stdClass::$imagen
+ [25-03-2025 20:00:52] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'idBarco' in 'where clause'
+ [25-03-2025 21:27:12] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'idBarco' in 'where clause'
+ [25-03-2025 21:28:56] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 60 - Message: Undefined property: stdClass::$maxHuespedes
+ [25-03-2025 21:48:51] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 75 - Message: Undefined variable $cantidadMaxHuespedes
+ [25-03-2025 22:07:12] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 62 - Message: Undefined property: stdClass::$cantidadHabitaciones
+ 

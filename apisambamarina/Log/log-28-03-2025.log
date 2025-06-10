@@ -1,0 +1,46 @@
+[28-03-2025 04:11:57] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 121 - Message: Attempt to read property "nombre" on null
+ [28-03-2025 15:36:21] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:36:22] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:36:37] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:36:38] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:36:40] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:36:41] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:36:47] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:36:48] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 66 - Message: syntax error, unexpected token "return"
+ [28-03-2025 15:45:48] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+ [28-03-2025 15:45:48] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+ [28-03-2025 15:45:49] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+ [28-03-2025 15:45:57] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+ [28-03-2025 15:45:58] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: syntax error, unexpected token ")", expecting identifier or variable or "{" or "$"
+ [28-03-2025 16:02:04] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: Attempt to read property "fechaInicio" on null
+ [28-03-2025 16:19:41] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 109 - Message: Column count doesn't match value count at row 1
+ [28-03-2025 16:25:11] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: Column count doesn't match value count at row 1
+ [28-03-2025 16:28:54] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: Column count doesn't match value count at row 1
+ [28-03-2025 18:05:32] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 129 - Message: Undefined property: stdClass::$id
+ [28-03-2025 18:46:55] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: Undefined property: stdClass::$fechaInicio
+ [28-03-2025 18:59:56] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: Undefined property: stdClass::$fechaInicio
+ [28-03-2025 19:27:28] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: Undefined property: stdClass::$fechaInicio
+ [28-03-2025 19:42:36] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: Undefined property: stdClass::$fechaInicio
+ [28-03-2025 19:42:40] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 67 - Message: Undefined property: stdClass::$fechaInicio
+ [28-03-2025 19:50:03] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 74 - Message: Undefined property: stdClass::$idBarco
+ [28-03-2025 19:50:16] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 74 - Message: Undefined property: stdClass::$idBarco
+ [28-03-2025 19:52:06] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 74 - Message: Undefined property: stdClass::$idBarco
+ [28-03-2025 19:52:14] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 74 - Message: Undefined property: stdClass::$idBarco
+ [28-03-2025 19:52:38] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 74 - Message: Undefined property: stdClass::$idBarco
+ [28-03-2025 19:52:58] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 74 - Message: Undefined property: stdClass::$idBarco
+ [28-03-2025 19:53:07] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 74 - Message: Undefined property: stdClass::$idBarco
+ [28-03-2025 21:36:00] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 79 - Message: Undefined property: stdClass::$precioBase
+ [28-03-2025 21:36:06] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 79 - Message: Undefined property: stdClass::$precioBase
+ [28-03-2025 22:06:20] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:06:23] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:07:10] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:07:24] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:07:27] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:09:02] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:09:35] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:11:53] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 141 - Message: Undefined property: stdClass::$idTipoHabitacion
+ [28-03-2025 22:46:51] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: Got a packet bigger than 'max_allowed_packet' bytes
+ [28-03-2025 22:46:53] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: Got a packet bigger than 'max_allowed_packet' bytes
+ [28-03-2025 22:46:54] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: Got a packet bigger than 'max_allowed_packet' bytes
+ [28-03-2025 22:46:56] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: Got a packet bigger than 'max_allowed_packet' bytes
+ 

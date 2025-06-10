@@ -1,0 +1,5 @@
+[28-02-2025 22:39:09] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 29 - Message: No connection could be made because the target machine actively refused it
+ [28-02-2025 22:39:21] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 29 - Message: No connection could be made because the target machine actively refused it
+ [28-02-2025 23:15:48] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 47 - Message: Attempt to read property "num_rows" on bool
+ [28-02-2025 23:17:28] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: Duplicate entry 'user003' for key 'PRIMARY'
+ 

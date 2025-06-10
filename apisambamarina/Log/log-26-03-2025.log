@@ -1,0 +1,3 @@
+[26-03-2025 00:18:56] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 98 - Message: Undefined property: stdClass::$habitaciones
+ [26-03-2025 00:19:15] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 98 - Message: Undefined property: stdClass::$habitaciones
+ 

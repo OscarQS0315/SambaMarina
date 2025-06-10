@@ -1,0 +1,4 @@
+[16-03-2025 07:54:49] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\UsuarioModel.php - line: 52 - Message: Attempt to read property "id" on null
+ [16-03-2025 08:04:34] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 101 - Message: Attempt to read property "id" on null
+ [16-03-2025 08:24:50] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 87 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Where id=100' at line 3
+ 

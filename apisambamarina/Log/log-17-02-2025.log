@@ -1,0 +1,19 @@
+[17-02-2025 07:00:06] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\index.php - line: 26 - Message: require_once(controllers/PuertoModel.php): Failed to open stream: No such file or directory
+ [17-02-2025 07:13:24] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\index.php - line: 28 - Message: require_once(models/ImagenPuertoController.php): Failed to open stream: No such file or directory
+ [17-02-2025 07:13:42] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\index.php - line: 28 - Message: require_once(controllers/ImagenPuertoController.php): Failed to open stream: No such file or directory
+ [17-02-2025 07:14:11] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\index.php - line: 28 - Message: require_once(controllers/ImagenPuertoController.php): Failed to open stream: No such file or directory
+ [17-02-2025 07:15:14] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\index.php - line: 28 - Message: require_once(controllers/ImagenPuertoController.php): Failed to open stream: No such file or directory
+ [17-02-2025 07:16:19] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\index.php - line: 28 - Message: require_once(controllers/ImagenPuertoController.php): Failed to open stream: No such file or directory
+ [17-02-2025 07:27:42] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\index.php - line: 36 - Message: require_once(controllers/ItinerarioController.php): Failed to open stream: No such file or directory
+ [17-02-2025 07:36:03] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.detallereservahabitacionmodel' doesn't exist
+ [17-02-2025 07:36:49] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.detallereservahabitacionmodel' doesn't exist
+ [17-02-2025 07:37:31] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.detallereservahabitacionmodel' doesn't exist
+ [17-02-2025 07:44:20] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.pagp' doesn't exist
+ [17-02-2025 17:51:08] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'user002' in 'where clause'
+ [17-02-2025 17:51:39] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'user002' in 'where clause'
+ [17-02-2025 17:52:01] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'user001' in 'where clause'
+ [17-02-2025 17:53:25] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'user001' in 'where clause'
+ [17-02-2025 17:56:52] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?id=user001' at line 1
+ [17-02-2025 17:57:05] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'user001' in 'where clause'
+ [17-02-2025 18:08:31] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\models\UsuarioModel.php - line: 40 - Message: Trying to access array offset on value of type null
+ 

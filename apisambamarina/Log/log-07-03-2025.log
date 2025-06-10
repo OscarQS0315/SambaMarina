@@ -1,0 +1,40 @@
+[07-03-2025 06:36:16] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\models\ImagenBarcoModel.php - line: 58 - Message: Trying to access array offset on value of type null
+ [07-03-2025 06:37:47] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\models\ImagenBarcoModel.php - line: 58 - Message: Trying to access array offset on value of type null
+ [07-03-2025 06:38:33] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\models\ImagenBarcoModel.php - line: 58 - Message: Trying to access array offset on value of type null
+ [07-03-2025 06:38:53] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\models\ImagenBarcoModel.php - line: 58 - Message: Trying to access array offset on value of type null
+ [07-03-2025 06:42:28] [Oporta] error: File: C:\xampp\htdocs\apisambamarina\models\ImagenBarcoModel.php - line: 58 - Message: Trying to access array offset on value of type null
+ [07-03-2025 07:35:56] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.tipo' in 'field list'
+ [07-03-2025 07:36:10] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.tipo' in 'field list'
+ [07-03-2025 07:36:52] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.tipo' in 'field list'
+ [07-03-2025 07:36:56] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Unknown column 'h.tipo' in 'field list'
+ [07-03-2025 07:40:23] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as Barco
+                            i.id as idImagen, i.imagen, 
+         ...' at line 1
+ [07-03-2025 07:40:51] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM habitacion h, barco b, i imagen 
+                     where h.idBarco =...' at line 3
+ [07-03-2025 07:41:03] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM habitacion h, barco b, imagen i 
+                     where h.idBarco =...' at line 3
+ [07-03-2025 07:41:11] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM habitacion h, barco b, imagen i,
+                     where h.idBarco =...' at line 3
+ [07-03-2025 07:42:07] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.imagen' doesn't exist
+ [07-03-2025 07:42:26] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.imagen' doesn't exist
+ [07-03-2025 07:42:30] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.imagen' doesn't exist
+ [07-03-2025 07:42:31] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: Table 'sambamarina.imagen' doesn't exist
+ [07-03-2025 07:48:20] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 36 - Message: syntax error, unexpected identifier "Habitacion"
+ [07-03-2025 07:48:47] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM habitacion h, barco b
+                     where h.idBarco = b.id' at line 3
+ [07-03-2025 08:30:26] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 47 - Message: Attempt to read property "id" on array
+ [07-03-2025 08:39:12] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\BarcoModel.php - line: 56 - Message: Undefined property: stdClass::$cantidadHuespedes
+ [07-03-2025 08:51:30] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 43 - Message: Trying to access array offset on value of type null
+ [07-03-2025 08:56:32] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\HabitacionModel.php - line: 67 - Message: Undefined property: stdClass::$2
+ [07-03-2025 09:04:00] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 43 - Message: Trying to access array offset on value of type null
+ [07-03-2025 09:04:05] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 43 - Message: Trying to access array offset on value of type null
+ [07-03-2025 09:50:34] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id as idBarco, b.nombre as Barco  
+                     FROM crucero c, bar...' at line 1
+ [07-03-2025 09:51:05] [oscar] error: File: C:\xampp\htdocs\apisambamarina\controllers\core\MySqlConnect.php - line: 46 - Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id as idBarco, b.nombre as Barco  
+                     FROM crucero c, bar...' at line 1
+ [07-03-2025 10:34:18] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\ComplementoModel.php - line: 57 - Message: Attempt to read property "idComplemento" on array
+ [07-03-2025 10:37:15] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\ComplementoModel.php - line: 57 - Message: Attempt to read property "idComplemento" on array
+ [07-03-2025 10:37:23] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\ComplementoModel.php - line: 57 - Message: Attempt to read property "idComplemento" on array
+ [07-03-2025 22:54:09] [oscar] error: File: C:\xampp\htdocs\apisambamarina\models\CruceroModel.php - line: 46 - Message: syntax error, unexpected token "\"
+ 

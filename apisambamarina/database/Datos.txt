@@ -1,0 +1,159 @@
+INSERT INTO Usuario (id, rol, contrasena, nombre, apellido1, apellido2, telefono, correo, nacimiento, pais, estado)
+VALUES
+('USR001', 1, 'contrasena123', 'Juan', 'Perez', 'Gomez', '1234567890', 'juan@example.com', '1985-06-15', 'Mexico', 1),
+('USR002', 2, 'contrasena456', 'Maria', 'Lopez', 'Diaz', '0987654321', 'maria@example.com', '1990-04-10', 'Argentina', 1),
+('USR003', 3, 'contrasena789', 'Carlos', 'Rodriguez', 'Martinez', '1122334455', 'carlos@example.com', '1982-12-20', 'Chile', 1),
+('USR004', 2, 'contrasena000', 'Laura', 'Garcia', 'Hernandez', '2233445566', 'laura@example.com', '1995-09-25', 'Colombia', 1),
+('USR005', 1, 'contrasena111', 'Jose', 'Martinez', 'Perez', '3344556677', 'jose@example.com', '1988-02-18', 'Peru', 1);
+INSERT INTO Puerto (nombre, pais, continente, estado)
+VALUES
+('Puerto Veracruz', 'Mexico', 'America', 1),
+('Puerto Buenos Aires', 'Argentina', 'America', 1),
+('Puerto Valparaiso', 'Chile', 'America', 1),
+('Puerto Cartagena', 'Colombia', 'America', 1),
+('Puerto Callao', 'Peru', 'America', 1);
+INSERT INTO ImagenPuerto (imagen, idPuerto)
+VALUES
+('imagen1.jpg', 1),
+('imagen2.jpg', 2),
+('imagen3.jpg', 3),
+('imagen4.jpg', 4),
+('imagen5.jpg', 5);
+INSERT INTO Barco (nombre, descripcion, estado)
+VALUES
+('Barco Aventura', 'Crucero de lujo con todo incluido', 1),
+('Barco Solis', 'Crucero familiar con actividades para niños', 1),
+('Barco Mar Azul', 'Crucero con vistas panorámicas al océano', 1),
+('Barco Estrella', 'Crucero con entretenimiento nocturno', 1),
+('Barco Oceánico', 'Crucero de expedición en aguas del sur', 1);
+INSERT INTO ImagenBarco (imagen, idBarco)
+VALUES
+('barco1.jpg', 1),
+('barco2.jpg', 2),
+('barco3.jpg', 3),
+('barco4.jpg', 4),
+('barco5.jpg', 5);
+INSERT INTO TipoHabitacion (id, descripcion)
+VALUES
+(1, 'Habitación Individual'),
+(2, 'Habitación Doble'),
+(3, 'Suite Familiar'),
+(4, 'Habitación Triple'),
+(5, 'Suite Ejecutiva');
+INSERT INTO Habitacion (idBarco, idTipoHabitacion, nombre, descripcion, minHuespedes, maxHuespedes, tamano, precioBase)
+VALUES
+(1, 1, 'Habitación A', 'Habitación cómoda para un huésped', 1, 1, 20.50, 100.00),
+(2, 2, 'Habitación B', 'Habitación doble con vista al mar', 2, 2, 25.75, 180.00),
+(3, 3, 'Suite A', 'Suite familiar con cocina y sala de estar', 2, 4, 50.00, 350.00),
+(4, 4, 'Habitación C', 'Habitación triple con balcón', 3, 3, 35.00, 220.00),
+(5, 5, 'Suite B', 'Suite ejecutiva con jacuzzi y vista panorámica', 1, 2, 60.00, 450.00);
+INSERT INTO ImagenHabitacion (imagen, idHabitacion)
+VALUES
+('habitacion1.jpg', 1),
+('habitacion2.jpg', 2),
+('habitacion3.jpg', 3),
+('habitacion4.jpg', 4),
+('habitacion5.jpg', 5);
+INSERT INTO Crucero (idBarco, nombre, fechaInicio, fechaFin, fechaLimitePago, precioBase, imagen, estado)
+VALUES
+(1, 'Crucero Caribeño', '2025-05-01', '2025-05-10', '2025-04-30', 2000.00, 'crucero1.jpg', 1),
+(2, 'Crucero Familiar', '2025-06-15', '2025-06-25', '2025-06-10', 1800.00, 'crucero2.jpg',1),
+(3, 'Expedición Oceánica', '2025-07-01', '2025-07-15', '2025-06-25', 3000.00, 'crucero3.jpg',1),
+(4, 'Noche Estelar', '2025-08-05', '2025-08-12', '2025-07-30', 2500.00, 'crucero4.jpg',1),
+(5, 'Crucero Pacifico', '2025-09-10', '2025-09-20', '2025-09-05', 2200.00, 'crucero5.jpg',1);
+INSERT INTO Itinerario (idCrucero, idPuertoSalida, idPuertoDestino, fechaLlegada, fechaSalida, descripcion)
+VALUES
+(1, 1, 2, '2025-05-02 08:00:00', '2025-05-01 18:00:00', 'Salida desde Puerto Veracruz hacia Buenos Aires'),
+(2, 2, 3, '2025-06-16 08:00:00', '2025-06-15 18:00:00', 'Salida desde Buenos Aires hacia Valparaiso'),
+(3, 3, 4, '2025-07-02 08:00:00', '2025-07-01 18:00:00', 'Salida desde Valparaiso hacia Cartagena'),
+(4, 4, 5, '2025-08-06 08:00:00', '2025-08-05 18:00:00', 'Salida desde Cartagena hacia Callao'),
+(5, 5, 1, '2025-09-11 08:00:00', '2025-09-10 18:00:00', 'Salida desde Callao hacia Veracruz');
+INSERT INTO Complemento (idCrucero, nombre, descripcion, precio, tipoComplemento)
+VALUES
+(1, 'Excursión a Caverna', 'Excursión a la Caverna', 200.00, 1),
+(2, 'Almuerzo Especial', 'Almuerzo gourmet para dos personas', 250.00, 2),
+(3, 'Sauna', 'Acceso al sauna durante el crucero', 150.00, 3),
+(4, 'Tour Diurno', 'Tour diurno por las montañas', 50.00, 1),
+(5, 'Acceso a parque acuático', 'Acceso a parque acuático', 200.00, 2),
+
+(1, 'Excursión a Isla', 'Excursión a la Isla de las Aves', 150.00, 1),
+
+(2, 'Cena Especial', 'Cena gourmet para dos personas', 100.00, 2),
+
+(3, 'Spa', 'Acceso al spa durante el crucero', 200.00, 3),
+
+(4, 'Tour Nocturno', 'Tour nocturno por las costas', 75.00, 1),
+(4, 'Tour Nocturno', 'Tour nocturno por las costas', 75.00, 1),
+(5, 'Acceso VIP', 'Acceso a áreas exclusivas del barco', 300.00, 2);
+
+
+
+INSERT INTO Reserva (idUsuario, idCrucero, total, impuestos, estado, pendientePagar)
+VALUES
+('USR001', 1, 2500.00, 250.00, 'PAGADA', 0.0),
+('USR002', 2, 2000.00, 200.00, 'PAGADA', 0.0),
+('USR003', 3, 3500.00, 350.00, 'PAGADA', 0.0),
+('USR004', 4, 2700.00, 270.00, 'PAGADA', 0.0),
+('USR005', 5, 2400.00, 240.00, 'PAGADA', 0.0);
+INSERT INTO DetalleReservaHabitacion (idReserva, idHabitacion, subtotal)
+VALUES
+(1, 1, 100.00),
+(2, 2, 180.00),
+(3, 3, 350.00),
+(4, 4, 220.00),
+(5, 5, 450.00);
+INSERT INTO DetalleReservaComplemento (idReserva, idComplemento, subtotal)
+VALUES
+(1, 1, 150.00),
+(2, 2, 100.00),
+(3, 3, 200.00),
+(4, 4, 75.00),
+(5, 5, 300.00),
+(1, 6, 150.00),
+(2, 7, 100.00),
+(3, 8, 200.00),
+(4, 9, 75.00),
+(5, 10, 300.00);
+
+INSERT INTO DetalleReservaHuesped (idReserva, cedula, nombre, apellido1, apellido2, nacimiento)
+VALUES
+(1, '1234567890', 'Juan', 'Perez', 'Gomez', '1985-06-15'),
+(2, '0987654321', 'Maria', 'Lopez', 'Diaz', '1990-04-10'),
+(3, '1122334455', 'Carlos', 'Rodriguez', 'Martinez', '1982-12-20'),
+(4, '2233445566', 'Laura', 'Garcia', 'Hernandez', '1995-09-25'),
+(5, '3344556677', 'Jose', 'Martinez', 'Perez', '1988-02-18');
+INSERT INTO Pago (idReserva, monto)
+VALUES
+(1, 2750.00),
+(2, 2200.00),
+(3, 3850.00),
+(4, 2970.00),
+(5, 2640.00);
+
+
+INSERT INTO Habitacion (idBarco, idTipoHabitacion, nombre, descripcion, minHuespedes, maxHuespedes, tamano, precioBase)
+VALUES
+(1, 1, 'Habitación A1', 'Habitación individual con vista al mar', 1, 1, 20.50, 100.00),
+(1, 2, 'Habitación A2', 'Habitación doble con balcón y vista al océano', 2, 2, 30.00, 180.00),
+(1, 3, 'Suite A1', 'Suite con cama king-size, jacuzzi y área de descanso', 2, 4, 50.00, 350.00);
+INSERT INTO Habitacion (idBarco, idTipoHabitacion, nombre, descripcion, minHuespedes, maxHuespedes, tamano, precioBase)
+VALUES
+(2, 1, 'Habitación B1', 'Habitación individual con acceso directo al spa', 1, 1, 22.00, 120.00),
+(2, 2, 'Habitación B2', 'Habitación doble con cama matrimonial y vista panorámica', 2, 2, 28.50, 160.00),
+(2, 3, 'Suite B1', 'Suite familiar con dos camas dobles, baño privado y mini bar', 2, 4, 45.00, 310.00);
+INSERT INTO Habitacion (idBarco, idTipoHabitacion, nombre, descripcion, minHuespedes, maxHuespedes, tamano, precioBase)
+VALUES
+(3, 1, 'Habitación C1', 'Habitación individual con ventana panorámica', 1, 1, 18.00, 95.00),
+(3, 2, 'Habitación C2', 'Habitación doble con terraza privada', 2, 2, 35.00, 200.00),
+(3, 3, 'Suite C1', 'Suite con cama king-size, escritorio y vista al mar', 2, 4, 55.00, 380.00);
+INSERT INTO Habitacion (idBarco, idTipoHabitacion, nombre, descripcion, minHuespedes, maxHuespedes, tamano, precioBase)
+VALUES
+(4, 1, 'Habitación D1', 'Habitación individual con vista al puerto', 1, 1, 21.00, 110.00),
+(4, 2, 'Habitación D2', 'Habitación doble con balcón y vista nocturna', 2, 2, 32.50, 170.00),
+(4, 3, 'Suite D1', 'Suite con cama king-size y acceso VIP al club del barco', 2, 4, 60.00, 400.00);
+INSERT INTO Habitacion (idBarco, idTipoHabitacion, nombre, descripcion, minHuespedes, maxHuespedes, tamano, precioBase)
+VALUES
+(5, 1, 'Habitación E1', 'Habitación individual con ventana panorámica y escritorio', 1, 1, 23.00, 115.00),
+(5, 2, 'Habitación E2', 'Habitación doble con terraza privada y vista al océano', 2, 2, 40.00, 190.00),
+(5, 3, 'Suite E1', 'Suite ejecutiva con jacuzzi privado y salón de estar', 2, 4, 55.00, 370.00);
+
